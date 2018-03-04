@@ -1,0 +1,49 @@
+
+body {
+  background: lightblue;
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  filter: url('#goo');
+}
+header {
+  height: 60px;
+  background: #fff;
+}
+header .logo {
+  padding: 20px;
+}
+header .menu {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  position: fixed;
+  top: 10px;
+  left: 30px;
+}
+.menu span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 2px;
+  background: #aaa;
+}
+.menu span:before, .menu span:after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: #aaa;
+  /* background-image: url('AQI.png'); */
+}
+.menu span:before {
+  top: -5px;
+}
+.menu span:after {
+  top: 5px;
+}
