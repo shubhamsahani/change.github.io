@@ -14,13 +14,19 @@
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<script src="js/modernizr-custom.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style media="screen">
+		.screen{
+			height:100%;
+			width:100%;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- navigation -->
 	<nav class="pages-nav">
 		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-docu">Hardwares</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-docu">Cart</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-manuals">Learn</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-software">Software</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-custom">Customization &amp; Settings</a></div>
@@ -40,11 +46,11 @@
 	<div class="pages-stack">
 		<!-- page -->
 		<div class="page" id="page-home">
-			<iframe src="coursel/index.html" seamless style="height:100%;width:100%;"></iframe>
+			<iframe src="coursel/index.html" seamless class="screen"></iframe>
 		</div>
 		<!-- /page -->
 		<div class="page" id="page-docu">
-
+			<iframe src="cart/index.html" seamless class="screen"></iframe>
 		</div>
 		<div class="page" id="page-manuals">
 
